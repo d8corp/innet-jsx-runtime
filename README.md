@@ -10,7 +10,6 @@
 [![npm downloads](https://img.shields.io/npm/dm/@innet/jsx-runtime.svg)](https://www.npmtrends.com/@innet/jsx-runtime)
 [![install size](https://packagephobia.com/badge?p=@innet/jsx-runtime)](https://github.com/d8corp/innet-jsx-runtime/tree/main/release)
 [![TypeScript](https://img.shields.io/npm/types/@innet/jsx-runtime)](https://www.typescriptlang.org)
-[![quality](https://packagequality.com/shield/@innet/jsx-runtime.svg)](https://packagequality.com/#?package=@innet/jsx-runtime)
 [![license](https://img.shields.io/npm/l/@innet/jsx-runtime)](https://github.com/d8corp/innet-jsx-runtime/blob/main/LICENSE)
 [![changelog](https://img.shields.io/badge/Changelog-⋮-brightgreen)](https://github.com/d8corp/innet-jsx-runtime/blob/main/CHANGELOG.md)
 
