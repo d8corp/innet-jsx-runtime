@@ -1,0 +1,48 @@
+{
+  "name": "@innet/jsx-runtime",
+  "version": "1.0.0",
+  "description": "JSX runtime for Innet",
+  "author": "Mikhail Lysikov <d8corp@mail.ru>",
+  "license": "MIT",
+  "exports": {
+    "./jsx-dev-runtime": {
+      "import": "./jsx-dev-runtime.es6.js",
+      "require": "./jsx-dev-runtime.js"
+    },
+    "./jsx-runtime": {
+      "import": "./jsx-runtime.es6.js",
+      "require": "./jsx-runtime.js"
+    }
+  },
+  "homepage": "https://github.com/d8corp/innet-jsx-runtime",
+  "bugs": {
+    "url": "https://github.com/d8corp/innet-jsx-runtime/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d8corp/innet-jsx-runtime.git"
+  },
+  "keywords": [
+    "innet",
+    "jsx",
+    "runtime",
+    "react",
+    "reactive",
+    "front-end"
+  ],
+  "scripts": {
+    "build": "innetjs release -i \"{jsx-runtime,jsx-dev-runtime}\"",
+    "test": "npm run test:jest && npm run test:size",
+    "test:jest": "jest",
+    "test:coverage": "jest --coverage",
+    "release": "innetjs release -p -i \"{jsx-runtime,jsx-dev-runtime}\"",
+    "patch": "innetjs patch",
+    "minor": "innetjs minor",
+    "major": "innetjs major",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "@innet/jsx": "^2.1.0"
+  }
+}
