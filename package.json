@@ -1,13 +1,9 @@
 {
   "name": "@innet/jsx-runtime",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JSX runtime for Innet",
   "author": "Mikhail Lysikov <d8corp@mail.ru>",
   "license": "MIT",
-  "main": "jsx-runtime.js",
-  "module": "jsx-runtime.mjs",
-  "jsnext:main": "jsx-runtime.mjs",
-  "types": "jsx-runtime.d.ts",
   "exports": {
     ".": {
       "import": "./jsx-runtime.mjs",

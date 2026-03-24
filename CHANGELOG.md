@@ -2,6 +2,10 @@
 
 ## v1.0
 
+### v1.0.3 [![24.03.2026](https://img.shields.io/date/1774347053)](https://github.com/d8corp/watch-state/tree/v1.0.3)
+
+- Fix import resolving
+
 ### v1.0.2 [![24.03.2026](https://img.shields.io/date/1774346814)](https://github.com/d8corp/watch-state/tree/v1.0.2)
 
 - Fix import resolving
