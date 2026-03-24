@@ -1,13 +1,17 @@
 {
   "name": "@innet/jsx-runtime",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JSX runtime for Innet",
   "author": "Mikhail Lysikov <d8corp@mail.ru>",
   "license": "MIT",
+  "main": "index.js",
+  "module": "index.mjs",
+  "jsnext:main": "index.mjs",
+  "types": "index.d.ts",
   "exports": {
     ".": {
-      "import": "./jsx-runtime.mjs",
-      "require": "./jsx-runtime.js"
+      "import": "./index.mjs",
+      "require": "./index.js"
     },
     "./jsx-runtime": {
       "import": "./jsx-runtime.mjs",
@@ -35,11 +39,11 @@
     "front-end"
   ],
   "scripts": {
-    "build": "innetjs release -i \"{jsx-runtime,jsx-dev-runtime}\"",
+    "build": "innetjs release -i \"{index,jsx-runtime,jsx-dev-runtime}\"",
     "test": "npm run test:jest && npm run test:size",
     "test:jest": "jest",
     "test:coverage": "jest --coverage",
-    "release": "innetjs release -p -i \"{jsx-runtime,jsx-dev-runtime}\"",
+    "release": "innetjs release -p -i \"{index,jsx-runtime,jsx-dev-runtime}\"",
     "patch": "innetjs patch",
     "minor": "innetjs minor",
     "major": "innetjs major",
@@ -47,6 +51,6 @@
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
-    "@innet/jsx": "^2.1.0"
+    "@innet/jsx": "^2.1.2"
   }
 }
