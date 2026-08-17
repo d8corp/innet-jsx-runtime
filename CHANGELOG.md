@@ -2,6 +2,10 @@
 
 ## v1.0
 
+### v1.0.5 [![17.08.2026](https://img.shields.io/date/1786993688)](https://github.com/d8corp/watch-state/tree/v1.0.5)
+
+- Add types to exports
+
 ### v1.0.4 [![24.03.2026](https://img.shields.io/date/1774351821)](https://github.com/d8corp/watch-state/tree/v1.0.4)
 
 - Fix import resolving

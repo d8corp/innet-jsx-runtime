@@ -1,6 +1,6 @@
 {
   "name": "@innet/jsx-runtime",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JSX runtime for Innet",
   "author": "Mikhail Lysikov <d8corp@mail.ru>",
   "license": "MIT",
@@ -10,14 +10,17 @@
   "types": "index.d.ts",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js"
     },
     "./jsx-runtime": {
+      "types": "./jsx-runtime.d.ts",
       "import": "./jsx-runtime.mjs",
       "require": "./jsx-runtime.js"
     },
     "./jsx-dev-runtime": {
+      "types": "./jsx-dev-runtime.d.ts",
       "import": "./jsx-dev-runtime.mjs",
       "require": "./jsx-dev-runtime.js"
     }
